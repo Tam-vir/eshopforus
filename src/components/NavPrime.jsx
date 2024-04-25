@@ -22,7 +22,7 @@ export default function NavBar({active}) {
   }
   return (
     <div className="w-full h-[60px] bg-gradient-to-r from-purple-700">
-      <div className="w-full h-[59px] bg-[#0c001f] flex flex-row items-center text-purple-500 text-lg">
+      <div className="w-full h-[59px] bg-[#0c001f] flex flex-row items-center text-purple-500 sm:text-lg">
         {addLinks()}
       </div>
     </div>
