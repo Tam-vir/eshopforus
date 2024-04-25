@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function NavBar({active}) {
   function addLinks(){
-    if(active == "products"){
+    if(active == "/products"){
       return(
         <>
           <Link className="mx-4 py-2 px-4 rounded-lg hover:bg-purple-300 duration-300 transition ease-in-out" href="/shops">Shops</Link>
